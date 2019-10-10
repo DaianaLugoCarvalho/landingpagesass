@@ -1,0 +1,10 @@
+@mixin flex ($tipo, $justificado) {
+    display:$tipo ;
+    justify-content:$justificado;
+}
+
+    // criado com parametros //
+// @mixin flex {
+//     display: flex;
+//     justify-content: space-between;
+// }

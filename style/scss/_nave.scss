@@ -1,0 +1,20 @@
+.navegacao{
+    background-color: blueviolet;
+    @include flex (flex,space-around)
+    // @include flex >> com os parametros << 
+}
+
+.logo{
+    width: 20vh;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-around;
+}
+
+.menu menu--direita{
+    display: flex;
+    justify-content: flex-end;
+    justify-content: space-around;
+}

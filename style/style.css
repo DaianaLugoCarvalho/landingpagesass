@@ -1,0 +1,20 @@
+.navegacao {
+  background-color: blueviolet;
+}
+
+.logo {
+  width: 20vh;
+}
+
+.menu {
+  display: flex;
+  justify-content: space-around;
+}
+
+.menu menu--direita {
+  display: flex;
+  justify-content: flex-end;
+  justify-content: space-around;
+}
+
+/*# sourceMappingURL=style.css.map */
